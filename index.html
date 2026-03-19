@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Análisis Estratégico: Roshfrans y Genesys Cloud</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Análisis Estratégico: Tokio Marine y Genesys Cloud</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body class="antialiased">
 
@@ -23,7 +23,8 @@
     <nav class="top-nav">
         <div class="container mx-auto px-6">
             <div class="flex flex-wrap items-center justify-center space-x-6 md:space-x-10 text-sm md:text-base">
-                <a href="#introduccion" class="nav-link">Introducción</a>
+                <a href="#introduccion" class="nav-link active">Introducción</a>
+                <a href="#contexto-actual" class="nav-link">Contexto Actual</a>
                 <a href="#situacion" class="nav-link">Análisis</a>
                 <a href="#desafios" class="nav-link">Desafíos</a>
                 <a href="#solucion" class="nav-link">Solución</a>
@@ -34,21 +35,155 @@
     </nav>
 
     <main class="container mx-auto p-4 md:p-8">
-        <section id="introduccion" class="content-section">
+
+        <section id="introduccion" class="content-section active">
             <h2>Resumen Ejecutivo</h2>
             <div class="interactive-panel">
                 <div class="topic-nav">
-                    <a class="topic-link active" data-target="intro-1"><svg class="topic-icon" style="color: var(--roshfrans-red);" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg><span>El Desafío Tokio Marine</span></a>
-                    <a class="topic-link" data-target="intro-2"><svg class="topic-icon" style="color: var(--genesys-orange);" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg><span>La Solución Genesys</span></a>
+                    <a class="topic-link active" data-target="intro-1">
+                        <svg class="topic-icon" style="color: var(--client-primary);" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                        <span>El Desafío Tokio Marine</span>
+                    </a>
+                    <a class="topic-link" data-target="intro-2">
+                        <svg class="topic-icon" style="color: var(--genesys-orange);" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span>La Solución Genesys</span>
+                    </a>
                 </div>
+
                 <div class="topic-content-container">
                     <div class="topic-content active" id="intro-1">
                         <h4>El desafío de Tokio Marine</h4>
-                        <p>Tokio Marine, líder en el mercado de seguros con una historia de 157 años, enfrenta uno de los mayores retos de la industria "la experiencia del cliente" hoy esperan procesos rápidos, personalizados y sin fricciones, tanto en autoservicio digital como con soporte humano cuando lo necesitan.</p>
+                        <p>
+                            Tokio Marine, líder en el mercado de seguros con una historia de más de un siglo,
+                            enfrenta uno de los mayores retos de la industria: ofrecer una experiencia del cliente
+                            rápida, personalizada y sin fricciones, tanto en autoservicio digital como en atención humana.
+                        </p>
                     </div>
+
                     <div class="topic-content" id="intro-2">
                         <h4>Orquestación Inteligente</h4>
-                        <p>Genesys Cloud es el proveedor de software y servicio al cliente más avanzado del mercado en la actualidad. Desde 1990, Genesys ha llevado la innovación al mercado con su estrategia de Experiencia del Cliente (CX). A través de la orquestación de experiencias y la IA, permite unificar el viaje del cliente, escalar el conocimiento experto y transformar el centro de contacto en un motor de inteligencia y crecimiento, alineando la operación con la visión transnacional de la empresa.</p>
+                        <p>
+                            Genesys Cloud permite unificar el viaje del cliente, escalar el conocimiento experto
+                            y transformar el centro de contacto en un motor de inteligencia y crecimiento.
+                            A través de la orquestación de experiencias y la IA, la operación puede alinearse con
+                            una visión moderna, eficiente y centrada en el cliente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contexto-actual" class="content-section">
+            <h2>Contexto Actual del Cliente</h2>
+
+            <div class="interactive-panel">
+                <div class="topic-nav">
+                    <a class="topic-link active" data-target="ctx-1">
+                        <span>Resumen Ejecutivo</span>
+                    </a>
+                    <a class="topic-link" data-target="ctx-2">
+                        <span>Objetivos</span>
+                    </a>
+                    <a class="topic-link" data-target="ctx-3">
+                        <span>Adopción e Indicadores</span>
+                    </a>
+                    <a class="topic-link" data-target="ctx-4">
+                        <span>Puntos de Atención</span>
+                    </a>
+                </div>
+
+                <div class="topic-content-container">
+                    <div class="topic-content active" id="ctx-1">
+                        <h4>Resumen Ejecutivo</h4>
+                        <p>
+                            <b>Tokio Marine Seguradora S.A.</b> busca impulsar la transformación digital de CX mediante
+                            interacciones basadas en IA, combinando automatización con asistencia humana para mejorar
+                            la experiencia del cliente.
+                        </p>
+
+                        <h4 class="mt-6">Visión</h4>
+                        <p>
+                            Mejorar el desempeño del servicio, reducir dependencia de sistemas legados y elevar la experiencia
+                            del cliente y del agente. La meta es evolucionar hacia una operación más autónoma, inteligente y
+                            centrada en experiencias empáticas.
+                        </p>
+
+                        <h4 class="mt-6">Prioridades</h4>
+                        <ul>
+                            <li>Acelerar la transformación digital de CX con IA</li>
+                            <li>Expandir la atención multicanal en voz, chat y redes</li>
+                            <li>Incrementar la productividad de agentes con asistencia inteligente</li>
+                        </ul>
+                    </div>
+
+                    <div class="topic-content" id="ctx-2">
+                        <h4>Objetivos Clave</h4>
+                        <ul>
+                            <li>Problemas de telefonía y llamadas trabadas</li>
+                            <li>Servicio no unificado, con baja sinergia y poca personalización</li>
+                            <li>Falta de soporte y herramientas para los agentes</li>
+                            <li>Dificultad en la gestión de calidad y autonomía operativa</li>
+                            <li>Baja adherencia a WFM</li>
+                        </ul>
+
+                        <h4 class="mt-6">Próximos Marcos</h4>
+                        <ul>
+                            <li>Definir objetivos de negocio y métricas de éxito</li>
+                            <li>Optimizar recursos mediante omnicanalidad y analítica</li>
+                            <li>Implementar enrutamiento inteligente y asistencia a agentes</li>
+                            <li>Expandir capacidades de IA en la operación</li>
+                        </ul>
+                    </div>
+
+                    <div class="topic-content" id="ctx-3">
+                        <h4>Estado Actual</h4>
+
+                        <div class="kpi-grid">
+                            <div class="kpi-card">
+                                <span class="kpi-value">80%</span>
+                                <span class="kpi-label">Adopción</span>
+                            </div>
+                            <div class="kpi-card">
+                                <span class="kpi-value">56%</span>
+                                <span class="kpi-label">Amplitud</span>
+                            </div>
+                        </div>
+
+                        <h4 class="mt-6">Indicadores de Impacto</h4>
+                        <div class="kpi-grid">
+                            <div class="kpi-card small">
+                                <span class="kpi-value">10%</span>
+                                <span class="kpi-label">Reducción de Costos</span>
+                            </div>
+                            <div class="kpi-card small">
+                                <span class="kpi-value">5%</span>
+                                <span class="kpi-label">Eficiencia Operativa</span>
+                            </div>
+                            <div class="kpi-card small">
+                                <span class="kpi-value">8%</span>
+                                <span class="kpi-label">Reducción TMA</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="topic-content" id="ctx-4">
+                        <h4>Puntos de Atención</h4>
+                        <ul>
+                            <li>Necesidad de mejorar la productividad de empleados</li>
+                            <li>Integraciones críticas con APIs, core y canales digitales</li>
+                            <li>Baja adopción en ciertos procesos operativos</li>
+                            <li>Dependencia de soporte manual en casos complejos</li>
+                        </ul>
+
+                        <h4 class="mt-6">Destacados</h4>
+                        <p>
+                            Foco en líneas de negocio clave como siniestros, facturación, ventas, atención digital y soporte 24/7.
+                            Existe un plan activo de adopción y crecimiento orientado a escalar capacidades digitales.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -58,20 +193,36 @@
             <h2>Análisis de Situación</h2>
             <div class="interactive-panel">
                 <div class="topic-nav">
-                    <a class="topic-link active" data-target="sit-1"><svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0v-4m0 4h5m0-4v-4m0 4h2" /></svg><span>Perfil Corporativo</span></a>
-                    <a class="topic-link" data-target="sit-2"><svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg><span>Arquetipos de Clientes</span></a>
+                    <a class="topic-link active" data-target="sit-1">
+                        <svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0v-4m0 4h5m0-4v-4m0 4h2" />
+                        </svg>
+                        <span>Perfil Corporativo</span>
+                    </a>
+                    <a class="topic-link" data-target="sit-2">
+                        <svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                        <span>Arquetipos de Clientes</span>
+                    </a>
                 </div>
+
                 <div class="topic-content-container">
                     <div class="topic-content active" id="sit-1">
                         <h4>Liderazgo y Excelencia Técnica</h4>
-                        <p>Con más de 100 años de historia, Tokio Marine es uno de los líderes del sector y se ubica entre las mayores aseguradoras globales, con una capitalización bursátil significativa (~USD 81 000 M a septiembre 2025). Su filosofía corporativa enfatiza disciplina, compromiso, satisfacción del cliente y valores sólidos, lo que refleja un enfoque técnico y operativo orientado a la excelencia, sin embargo, se enfrenta a una amenaza de "mercado negro" que erosiona el mercado.</p>
+                        <p>
+                            Tokio Marine es uno de los líderes del sector asegurador y destaca por su disciplina operativa,
+                            enfoque en servicio y solidez de marca. Sin embargo, en un mercado cada vez más competitivo,
+                            la experiencia del cliente se convierte en el principal diferenciador.
+                        </p>
                         <div class="chart-container">
                             <canvas id="marketGrowthChart"></canvas>
                         </div>
                         <div class="sources-footer">
-                            <p>Fuentes: 
-                                <a href="https://www.tmhcc.com/es-mx/sobre-nosotros/grupo-tokio-marine" target="_blank">Tokio Marine</a> | 
-                                <a href="https://rankingslatam.com/blogs/industry-news/mexico-s-insurance-market-growth-momentum-competitive-structure-and-market-leaders-june-2025-rankings" target="_blank">Market Rankings 2025</a> | 
+                            <p>
+                                Fuentes:
+                                <a href="https://www.tmhcc.com/es-mx/sobre-nosotros/grupo-tokio-marine" target="_blank">Tokio Marine</a> |
+                                <a href="https://rankingslatam.com/blogs/industry-news/mexico-s-insurance-market-growth-momentum-competitive-structure-and-market-leaders-june-2025-rankings" target="_blank">Market Rankings 2025</a> |
                                 <a href="https://www.imarcgroup.com/mexico-insurance-market" target="_blank">IMARC Market Analysis</a>
                             </p>
                         </div>
@@ -79,15 +230,46 @@
 
                     <div class="topic-content" id="sit-2">
                         <h4>La Base de Clientes en Seguros: Segmentación Estratégica</h4>
-                        <p>El reto principal es atender distintos perfiles con niveles de sofisticación y expectativas muy diferentes: desde asegurados individuales que buscan rapidez y claridad, hasta clientes corporativos que demandan estructuración técnica, gestión de riesgos y servicio consultivo.</p>
+                        <p>
+                            El reto principal es atender perfiles con distintos niveles de sofisticación y expectativas:
+                            desde asegurados individuales que buscan rapidez y claridad, hasta clientes corporativos que
+                            demandan profundidad técnica, gestión de riesgos y servicio consultivo.
+                        </p>
                         <div class="overflow-x-auto">
                             <table>
-                                <thead><tr><th>Arquetipo</th><th>Necesidades</th><th>Agudeza Técnica</th><th>Canal Ideal</th></tr></thead>
+                                <thead>
+                                    <tr>
+                                        <th>Arquetipo</th>
+                                        <th>Necesidades</th>
+                                        <th>Agudeza Técnica</th>
+                                        <th>Canal Ideal</th>
+                                    </tr>
+                                </thead>
                                 <tbody>
-                                    <tr><td>Asegurado Individual (Autos / Vida)</td><td>Cotización rápida, claridad en coberturas, gestión ágil de siniestros</td><td>Baja a Media</td><td>Web, App, Chat, WhatsApp</td></tr>
-                                    <tr><td>PyME (Comercio / Servicios)</td><td>Protección integral, asesoría básica de riesgos, facilidad administrativa</td><td>Media</td><td>Agente especializado, Email, Portal cliente</td></tr>
-                                    <tr><td>Empresa Mediana (Logística / Manufactura)</td><td>Programas multirriesgo, continuidad operativa, tiempos rápidos en reclamaciones</td><td>Alta</td><td>Ejecutivo de cuenta, Línea especializada, Visitas consultivas</td></tr>
-                                    <tr><td>Corporativo / Global Account</td><td>Programas internacionales, compliance, gestión avanzada de riesgos, reporting ejecutivo</td><td>Muy Alta</td><td>Gerente dedicado, Consultoría in situ, Comité técnico</td></tr>
+                                    <tr>
+                                        <td>Asegurado Individual (Autos / Vida)</td>
+                                        <td>Cotización rápida, claridad en coberturas, gestión ágil de siniestros</td>
+                                        <td>Baja a Media</td>
+                                        <td>Web, App, Chat, WhatsApp</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PyME (Comercio / Servicios)</td>
+                                        <td>Protección integral, asesoría básica de riesgos, facilidad administrativa</td>
+                                        <td>Media</td>
+                                        <td>Agente especializado, Email, Portal cliente</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Empresa Mediana (Logística / Manufactura)</td>
+                                        <td>Programas multirriesgo, continuidad operativa, tiempos rápidos en reclamaciones</td>
+                                        <td>Alta</td>
+                                        <td>Ejecutivo de cuenta, Línea especializada, Visitas consultivas</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Corporativo / Global Account</td>
+                                        <td>Programas internacionales, compliance, gestión avanzada de riesgos, reporting ejecutivo</td>
+                                        <td>Muy Alta</td>
+                                        <td>Gerente dedicado, Consultoría in situ, Comité técnico</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -100,28 +282,67 @@
             <h2>Desafíos Operativos Centrales</h2>
             <div class="interactive-panel">
                 <div class="topic-nav">
-                    <a class="topic-link active" data-target="des-1"><svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" /></svg><span>Clientes Bifurcados</span></a>
-                    <a class="topic-link" data-target="des-2"><svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg><span>Soporte Ineficiente</span></a>
-                    <a class="topic-link" data-target="des-3"><svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12" /></svg><span>Escalabilidad Limitada</span></a>
-                    <a class="topic-link" data-target="des-4"><svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.096 2.572-1.065z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg><span>Optimización de RRHH</span></a>
+                    <a class="topic-link active" data-target="des-1">
+                        <svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                        </svg>
+                        <span>Clientes Bifurcados</span>
+                    </a>
+                    <a class="topic-link" data-target="des-2">
+                        <svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span>Soporte Ineficiente</span>
+                    </a>
+                    <a class="topic-link" data-target="des-3">
+                        <svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12" />
+                        </svg>
+                        <span>Escalabilidad Limitada</span>
+                    </a>
+                    <a class="topic-link" data-target="des-4">
+                        <svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.096 2.572-1.065z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <span>Optimización de RRHH</span>
+                    </a>
                 </div>
+
                 <div class="topic-content-container">
                     <div class="topic-content active" id="des-1">
                         <h4>Tensión Operativa</h4>
-                        <p>La necesidad de ser un asesor experto en seguros y una guía simple para consumidores crea una tensión operativa constante. Un gerente de riesgos corporativo necesita discutir límites, deducibles y exposición técnica con un especialista.
-                            Un asegurado individual con un choque menor solo quiere saber cómo reportar su siniestro de forma rápida y clara. Atender ambos con el mismo modelo y lenguaje genera fricción: uno percibe falta de profundidad, el otro exceso de complejidad. La clave para Tokio Marine es adaptar la experiencia según el nivel técnico del cliente.</p>
+                        <p>
+                            Atender con el mismo modelo a clientes de alta complejidad técnica y a usuarios que solo buscan
+                            una respuesta simple genera fricción. La clave para Tokio Marine es adaptar la experiencia
+                            según el nivel técnico y el contexto del cliente.
+                        </p>
                     </div>
+
                     <div class="topic-content" id="des-2">
                         <h4>Silos de Conocimiento</h4>
-                        <p>La experiencia técnica más profunda reside en un grupo pequeño y especializado en el LST y el ITR. Este conocimiento no es fácilmente accesible en tiempo real para los agentes de primera línea, lo que crea un riesgo de asesoramiento inconsistente. Un mensaje erróneo sobre los seguros de vida y productos complementarios puede tener consecuencias catastróficas, desde inconsistencias en  el servicio adquirido hasta un daño irreparable a la reputación de la marca.</p>
+                        <p>
+                            La experiencia técnica profunda suele concentrarse en grupos especializados. Cuando ese conocimiento
+                            no está disponible en tiempo real para los agentes de primera línea, se incrementa el riesgo de
+                            respuestas inconsistentes y desgaste operativo.
+                        </p>
                     </div>
+
                     <div class="topic-content" id="des-3">
                         <h4>Personalización a Escala</h4>
-                        <p>Mantener una interacción personalizada se vuelve exponencialmente difícil con el crecimiento. Existe una desconexión entre los esfuerzos de marketing de masas (patrocinios) y un proceso estructurado para gestionar los leads que estos generan. La falta de un camino claro y personalizado desde el interés inicial hasta una conversación de ventas calificada representa una oportunidad de ingresos perdida.</p>
+                        <p>
+                            Mantener una interacción personalizada se vuelve exponencialmente más difícil conforme crece la operación.
+                            La ausencia de un camino claro desde el interés inicial hasta una conversación calificada representa
+                            una oportunidad de ingresos perdida.
+                        </p>
                     </div>
+
                     <div class="topic-content" id="des-4">
                         <h4>Capital Humano</h4>
-                        <p>Dado el vasto y complejo catálogo de productos, capacitar a un nuevo agente es un proceso largo y costoso. Este largo "tiempo de rampa" reduce la productividad. Además, se corre el riesgo de agotar a los expertos de alto valor con preguntas repetitivas, afectando la moral y la retención del talento especializado.</p>
+                        <p>
+                            Capacitar a nuevos agentes en un catálogo amplio y complejo implica tiempos largos de rampa y alto costo.
+                            Además, los expertos terminan resolviendo preguntas repetitivas que podrían ser asistidas o automatizadas.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -131,20 +352,49 @@
             <h2>La Solución Genesys</h2>
             <div class="interactive-panel">
                 <div class="topic-nav">
-                    <a class="topic-link active" data-target="sol-1"><svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" /></svg><span>Mapeo Estratégico</span></a>
+                    <a class="topic-link active" data-target="sol-1">
+                        <svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                        </svg>
+                        <span>Mapeo Estratégico</span>
+                    </a>
                 </div>
+
                 <div class="topic-content-container">
                     <div class="topic-content active" id="sol-1">
                         <h4>Alineación Directa de Problema a Solución</h4>
-                        <p>Genesys Cloud es capaz de mapear directamente cada desafío de Tokio Marine a una solución de IA específica, transformando debilidades operativas en fortalezas tecnológicas.</p>
+                        <p>
+                            Genesys Cloud permite mapear cada desafío operativo a una capacidad de negocio concreta,
+                            transformando fricción operacional en eficiencia, consistencia y crecimiento.
+                        </p>
                         <table>
-                            <thead><tr><th>Desafío de Tokio Marine</th><th>Soluciones</th></tr></thead>
+                            <thead>
+                                <tr>
+                                    <th>Desafío de Tokio Marine</th>
+                                    <th>Soluciones</th>
+                                </tr>
+                            </thead>
                             <tbody>
-                                <tr><td>Soporte Técnico Inconsistente</td><td><b>Guías inteligentes para atención consistente</b></td></tr>
-                                <tr><td>Incapacidad para Escalar Conocimiento</td><td><b>Asistentes virtuales que amplían la capacidad del equipo</b></td></tr>
-                                <tr><td>Manejo Ineficiente de Consultas</td><td><b>Asignación inteligente de solicitudes</b></td></tr>
-                                <tr><td>Altos Costos de Capacitación</td><td><b>Capacitación continua asistida por inteligencia</b></td></tr>
-                                <tr><td>Falta de Inteligencia de Mercado</td><td><b>Análisis automático de conversaciones con clientes</b></td></tr>
+                                <tr>
+                                    <td>Soporte Técnico Inconsistente</td>
+                                    <td><b>Guías inteligentes para atención consistente</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Incapacidad para Escalar Conocimiento</td>
+                                    <td><b>Asistentes virtuales que amplían la capacidad del equipo</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Manejo Ineficiente de Consultas</td>
+                                    <td><b>Asignación inteligente de solicitudes</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Altos Costos de Capacitación</td>
+                                    <td><b>Capacitación continua asistida por inteligencia</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Falta de Inteligencia de Mercado</td>
+                                    <td><b>Análisis automático de conversaciones con clientes</b></td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -156,18 +406,40 @@
             <h2>Retorno de la Inversión (ROI)</h2>
             <div class="interactive-panel">
                 <div class="topic-nav">
-                    <a class="topic-link active" data-target="roi-1"><svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg><span>ROI Cuantificable</span></a>
-                    <a class="topic-link" data-target="roi-2"><svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg><span>Valor Estratégico</span></a>
+                    <a class="topic-link active" data-target="roi-1">
+                        <svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                        </svg>
+                        <span>ROI Cuantificable</span>
+                    </a>
+                    <a class="topic-link" data-target="roi-2">
+                        <svg class="topic-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                        </svg>
+                        <span>Valor Estratégico</span>
+                    </a>
                 </div>
+
                 <div class="topic-content-container">
                     <div class="topic-content active" id="roi-1">
                         <h4>Eficiencia y Crecimiento</h4>
-                        <p>La inversión se justifica a través de mejoras medibles en reducción de costos y generación de ingresos.</p>
+                        <p>
+                            La inversión se justifica a través de mejoras medibles en reducción de costos,
+                            productividad y capacidad de crecimiento.
+                        </p>
                         <div class="chart-container">
                             <canvas id="roiChart"></canvas>
                         </div>
                     </div>
-                    <div class="topic-content" id="roi-2"><h4>Inteligencia de Negocio</h4><p>Más allá de los números, el mayor ROI es la capacidad de analizar el 100% de las conversaciones. Esto proporciona a la alta dirección datos en tiempo real para la toma de decisiones estratégicas sobre productos, marketing y expansión, una ventaja competitiva que los informes de mercado tradicionales no pueden igualar.</p></div>
+
+                    <div class="topic-content" id="roi-2">
+                        <h4>Inteligencia de Negocio</h4>
+                        <p>
+                            Más allá de la eficiencia operativa, el mayor valor está en la capacidad de analizar
+                            conversaciones y convertirlas en decisiones estratégicas sobre productos, marketing,
+                            canales y oportunidades de mejora.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -176,26 +448,183 @@
             <h2>Modelo de Adopción: Caminar, Correr, Volar</h2>
             <div class="interactive-panel">
                 <div class="topic-nav">
-                    <a class="topic-link active" data-target="adop-1"><svg class="topic-icon" style="color:var(--roshfrans-green)" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg><span>Fase 1: Caminar</span></a>
-                    <a class="topic-link" data-target="adop-2"><svg class="topic-icon" style="color:var(--genesys-dark-blue)" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg><span>Fase 2: Correr</span></a>
-                    <a class="topic-link" data-target="adop-3"><svg class="topic-icon" style="color:var(--genesys-orange)" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" /></svg><span>Fase 3: Volar</span></a>
+                    <a class="topic-link active" data-target="adop-1">
+                        <svg class="topic-icon" style="color: var(--client-accent);" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                        </svg>
+                        <span>Fase 1: Caminar</span>
+                    </a>
+                    <a class="topic-link" data-target="adop-2">
+                        <svg class="topic-icon" style="color: var(--genesys-dark-blue);" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                        </svg>
+                        <span>Fase 2: Correr</span>
+                    </a>
+                    <a class="topic-link" data-target="adop-3">
+                        <svg class="topic-icon" style="color: var(--genesys-orange);" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                        </svg>
+                        <span>Fase 3: Volar</span>
+                    </a>
                 </div>
+
                 <div class="topic-content-container">
-                    <div class="topic-content active" id="adop-1"><h4>Meses 1-3: Fundación y Victorias Rápidas</h4><ul><li>Desplegar canales básicos (voz, chat, email) y activar la Inteligencia Conversacional.</li><li>Lanzar un chatbot de FAQ para consultas B2C rutinarias.</li><li><b>Objetivo:</b> Desviar interacciones de bajo valor y comenzar a recopilar datos accionables.</li></ul></div>
-                    <div class="topic-content" id="adop-2"><h4>Meses 4-9: Empoderamiento y Enfoque B2B</h4><ul><li>Implementar WEM para gestión de calidad y programación inteligente.</li><li>Construir AI Guides para los problemas técnicos más comunes.</li><li>Desplegar un Agente Virtual para que los distribuidores B2B verifiquen stock y precios.</li><li><b>Objetivo:</b> Mejorar la eficiencia del equipo humano y dar autoservicio a los socios.</li></ul></div>
-                    <div class="topic-content" id="adop-3"><h4>Meses 10-18: IA Agéntica y Orquestación</h4><ul><li>Evolucionar el Agente Virtual con capacidades de IA Agéntica para soporte técnico complejo.</li><li>Implementar Enrutamiento Predictivo para conectar clientes con el mejor agente.</li><li>Activar Engagement Predictivo para contactar proactivamente a leads B2B.</li><li><b>Objetivo:</b> Automatizar soporte técnico y transformar la plataforma en un generador de ingresos.</li></ul></div>
+                    <div class="topic-content active" id="adop-1">
+                        <h4>Meses 1-3: Fundación y Victorias Rápidas</h4>
+                        <ul>
+                            <li>Desplegar canales básicos como voz, chat y email</li>
+                            <li>Activar inteligencia conversacional</li>
+                            <li>Lanzar automatización para consultas frecuentes</li>
+                            <li><b>Objetivo:</b> desviar interacciones de bajo valor y comenzar a recopilar datos accionables</li>
+                        </ul>
+                    </div>
+
+                    <div class="topic-content" id="adop-2">
+                        <h4>Meses 4-9: Empoderamiento y Eficiencia</h4>
+                        <ul>
+                            <li>Implementar gestión de calidad y programación inteligente</li>
+                            <li>Construir guías para problemas técnicos comunes</li>
+                            <li>Ampliar autoservicio para socios y clientes</li>
+                            <li><b>Objetivo:</b> mejorar eficiencia humana y acelerar consistencia operativa</li>
+                        </ul>
+                    </div>
+
+                    <div class="topic-content" id="adop-3">
+                        <h4>Meses 10-18: IA Agéntica y Orquestación</h4>
+                        <ul>
+                            <li>Evolucionar a automatización avanzada para soporte complejo</li>
+                            <li>Implementar enrutamiento predictivo</li>
+                            <li>Activar engagement proactivo sobre leads y oportunidades</li>
+                            <li><b>Objetivo:</b> transformar la plataforma en un motor de ingresos y experiencia diferenciada</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
+
     </main>
 
     <footer class="bg-gray-800 text-white mt-12 py-6">
         <div class="container mx-auto px-6 text-center text-sm">
             <p>&copy; 2026 Análisis Estratégico. Creado para Tokio Marine en colaboración con Genesys.</p>
-            <p class="text-gray-400 mt-2 text-xs">Disclaimer: Este análisis se ha elaborado utilizando información disponible públicamente...</p>
+            <p class="text-gray-400 mt-2 text-xs">Disclaimer: Este análisis se ha elaborado utilizando información disponible públicamente y planteamientos estratégicos de transformación CX.</p>
         </div>
     </footer>
 
-    <script src="grafico.js"></script>
+    <script>
+        const navLinks = document.querySelectorAll('.top-nav .nav-link');
+        const sections = document.querySelectorAll('.content-section');
+
+        function showSectionByHash(hash) {
+            const targetHash = hash || '#introduccion';
+
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+            });
+
+            const targetSection = document.querySelector(targetHash);
+            const targetNav = document.querySelector('.top-nav .nav-link[href="' + targetHash + '"]');
+
+            if (targetSection) {
+                targetSection.classList.add('active');
+            }
+
+            if (targetNav) {
+                targetNav.classList.add('active');
+            }
+        }
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const hash = this.getAttribute('href');
+                history.replaceState(null, null, hash);
+                showSectionByHash(hash);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+
+        window.addEventListener('load', () => {
+            showSectionByHash(window.location.hash || '#introduccion');
+        });
+
+        document.querySelectorAll('.interactive-panel').forEach(panel => {
+            const links = panel.querySelectorAll('.topic-link');
+            const contents = panel.querySelectorAll('.topic-content');
+
+            links.forEach(link => {
+                link.addEventListener('click', () => {
+                    const target = link.getAttribute('data-target');
+
+                    links.forEach(l => l.classList.remove('active'));
+                    contents.forEach(c => c.classList.remove('active'));
+
+                    link.classList.add('active');
+                    const content = panel.querySelector('#' + target);
+                    if (content) {
+                        content.classList.add('active');
+                    }
+                });
+            });
+        });
+
+        const marketCtx = document.getElementById('marketGrowthChart');
+        if (marketCtx) {
+            new Chart(marketCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['2023', '2024', '2025'],
+                    datasets: [{
+                        label: 'Crecimiento estimado del mercado',
+                        data: [6, 8, 10]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: true
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        const roiCtx = document.getElementById('roiChart');
+        if (roiCtx) {
+            new Chart(roiCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['Reducción de costos', 'Productividad', 'Velocidad de atención'],
+                    datasets: [{
+                        label: 'Impacto esperado',
+                        data: [10, 15, 8]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: true
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+    </script>
 </body>
 </html>
